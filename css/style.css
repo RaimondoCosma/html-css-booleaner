@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Stile Header */
 header {
     background-image: url('../img/pattern.png');
     background-size: contain;
@@ -35,7 +36,55 @@ h1{
 .descrizione {
     margin: 0 0 20px 20px;
 }
+/* Fine Stile Header */
 
+/* Stile Sezione Paragrafo */
 ul{
     margin: 20px 0 20px 20px;
 }
+/* Fine Stile Sezione Paragrafo */
+
+/* Stile Sezione con Tabella */
+table {
+    margin-bottom: 20px;
+}
+
+thead {
+    color: white;
+    background-color: rgb(36, 113, 228);
+    font-size: 14px;
+}
+
+.dispari {
+    background-color: aqua;
+}
+
+#last {
+    width: 50%;
+}
+/* Fine Stile Sezione Tabella */
+
+/* Stile Footer */
+h3 {
+    margin: 30px 0 10px;
+    font-size: 16px;
+    color: grey;
+}
+
+.pubblicità {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 312px;
+    height: 208px;
+}
+
+.pubblicità-1 {
+    background-image: url('../img/monitor.jpg');
+    margin-bottom: 10px;
+}
+
+.pubblicità-2 {
+    background-image: url('../img/graph.jpg');
+}
+/* Fine Stile Footer */
