@@ -7,7 +7,7 @@
 /* Stile Header */
 header {
     background-image: url('../img/pattern.png');
-    background-size: contain;
+    background-size: contain;   /*sarebbe stato meglio giocare con le percentuali invece di contain */
     background-color: rgb(36, 113, 228);
 }
 
@@ -46,7 +46,12 @@ ul{
 
 /* Stile Sezione con Tabella */
 table {
+    border-collapse: collapse;      /* Aggiunto dopo la correzzione */
     margin-bottom: 20px;
+}
+
+th {
+    text-align: left;  /* Aggiunto dopo la correzione */
 }
 
 thead {
